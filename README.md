@@ -53,7 +53,7 @@ postgres=# \password postgres     #Change password to 12345678 or as in database
 
 #Run the application
 
-docker compose up
+uvicorn main:app --host=0.0.0.0
 
 ![image](https://user-images.githubusercontent.com/92083624/198978873-7a1d060c-a6b6-4955-ad9b-afa82f3525a3.png)
 
