@@ -1,5 +1,6 @@
 fastapi
 pydantic
 uvicorn[standard]
+psycopg-binary
 psycopg2
 flask-sqlalchemy
